@@ -1,6 +1,6 @@
-#print 1 to N natural no.
+#print reverse natural no.
 
-a=int(input("enter value of n "))
-print("natural number 1 to %d="%a)
-for i in range(1,a+1):
+a=int(input("enter lower limit="))
+b=int(input("enter upper limit="))
+for i in range(b,a-1,-1):
     print(i)
